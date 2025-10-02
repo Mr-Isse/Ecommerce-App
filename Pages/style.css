@@ -882,3 +882,116 @@ input[type='email']{
     height: 100%;
     border-radius: 25px;
 }
+
+#Cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#Cart table img{
+    width: 80px;
+
+}
+#Cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+
+}
+
+#Cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+
+
+}
+#Cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+
+}
+
+#Cart table td:nth-child(4),
+#Cart table td:nth-child(5),
+#Cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+
+#Cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px  5px 10px 15px;
+}
+
+#Cart table thead{
+    border: 1px solid#e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+#Cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+#Cart table thead tr td{
+    padding-top: 10px;
+}
+
+#Cart table tbody td{
+    font-size: 13px;
+}
+
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#Cuppon{
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+
+#Cuppon h3{
+    padding-bottom: 15px;
+    margin-left: 30px;
+    font-size: 27px;
+}
+
+#Cuppon input{
+    padding: 6px;
+    border: 1px solid#e2e9e1;
+    border-radius: 10px;
+    width: 50%;
+}
+.Normal{
+    width: 190px;
+    padding: 7px;
+    font-size: 17px;
+    font-weight: 600;
+}
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid#e2e9e1;
+    padding: 30px;
+
+}
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+#subtotal table td{
+    width: 50%;
+    border: 1px solid#e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
